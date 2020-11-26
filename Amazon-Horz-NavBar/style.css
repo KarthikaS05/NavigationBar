@@ -28,10 +28,11 @@ a {
   justify-content: space-between;
   align-items: center;
   background-color: #232f3e;
-  
 }
 
 /* ---------------------- Styling left side of Nav Bar ---------------------- */
+/* a transparent border is given
+ to avoid the pushing effect on hover */
 
 .navBar__left {
   height: 90%;
@@ -41,6 +42,7 @@ a {
   width: fit-content;
   padding: 3px 8px 0px 8px;
   margin-left: 10px;
+  border: 1px solid transparent;
 }
 
 .navBar__left ion-icon {
@@ -71,6 +73,11 @@ a {
   justify-content: center;
   align-items: center;
   flex-grow: 1;
+  border-radius: 2px;
+}
+
+.navBar__items {
+  border: 1px solid transparent;
 }
 
 .navBar__items a {
@@ -94,6 +101,7 @@ a {
   padding: 3px 18px;
   font-size: 28px;
   margin-right: 2px;
+  border: 1px solid transparent;
 }
 
 /* ------------------------------ hover effect ------------------------------ */
